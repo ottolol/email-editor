@@ -1,8 +1,49 @@
 .emailEditor {
-  background-color: rgb(103, 103, 95);
-  border-radius: 10px;
-  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
-  margin: 10px;
   padding: 10px;
-  max-width: 300px;
+
+  .emailEditor__title {
+  }
+
+  .emailEditor__text {
+    background-color: rgb(103, 103, 95);
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    padding: 15px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+
+  .footer__icons {
+    padding: 10px 0;
+
+    > svg {
+      padding: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgb(183, 183, 174);
+      }
+    }
+  }
+
+  .footer__button {
+    display: flex;
+    align-items: center;
+
+    > button {
+      background-color: #0a0a23;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(183, 183, 174);
+      }
+    }
+  }
 }
